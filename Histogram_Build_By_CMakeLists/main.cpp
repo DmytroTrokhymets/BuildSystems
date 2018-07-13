@@ -1,10 +1,10 @@
 
-#include "staticlibrary.h"
+#include "staticlibrary_1.h"
 #include <cassert>
+#include <cstdlib>
+
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
     int countValues = 10;
     assert(countValues > 0);
 
@@ -15,8 +15,6 @@ int main(int argc, char *argv[])
     }
 
     delete [] allValues;
-
-  std::cin.get();
 
 }
 
